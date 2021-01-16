@@ -23,7 +23,7 @@ jobs:
                      model=${{ matrix.model }} \
                      name="Cruel-v4.0"         \
                      toolchain=$TOOLCHAIN      \
-                     +magisk                   \
+                     +magisk=v21.3                   \
                      +nohardening              \
                      +ttl                      \
                      +wireguard                \
